@@ -1,7 +1,7 @@
 import numpy as np
 
-t = [[1,2,3,4,5,6],[2,2,3,4,5,6]]
+t = [[1,2],[3,4]]
 
-at = np.array(t)
+t = np.array(t)
 
-print(at.T)
+print(t[[2,3,4,4],1])
